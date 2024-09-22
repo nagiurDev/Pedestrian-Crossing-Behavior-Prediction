@@ -1,0 +1,33 @@
+# General
+numpy>=1.21.0
+pandas>=1.3.0
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Computer Vision
+opencv-python>=4.5.0
+opencv-python-headless>=4.5.0  # For environments without GUI
+
+# Machine Learning
+scikit-learn>=0.24.0
+tensorflow>=2.5.0  # Or PyTorch if preferred
+keras>=2.5.0  # If using TensorFlow Keras
+
+# Object Detection
+tensorflow-gpu>=2.5.0  # If using GPU
+yolov5  # YOLOv5 package (if needed)
+# Note: For YOLOv4, you'll likely need to clone a specific repository and install from source.
+
+# Tracking Algorithms
+scipy>=1.7.0  # Required for some tracking algorithms
+
+# Jupyter Notebooks
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Miscellaneous
+tqdm>=4.62.0  # For progress bars
+Pillow>=8.2.0  # For image processing
+
+# For testing
+pytest>=6.2.0

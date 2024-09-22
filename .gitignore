@@ -1,0 +1,79 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Data files
+data/raw/
+data/processed/
+data/annotations/
+
+# Model and checkpoint files
+models/*.h5
+models/*.weights
+checkpoints/
+*.ckpt
+*.pb
+
+# Logs and results
+logs/
+results/performance_logs.csv
+results/model_outputs/
+results/figures/
+
+# Experiment files
+experiments/*/checkpoints/
+experiments/*/logs/
+experiments/*/*.yaml
+
+# Docker
+docker-compose.yml
+Dockerfile
+
+# Unit test and coverage reports
+htmlcov/
+.coverage
+.cache
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# TensorBoard log files
+runs/
+events.out.tfevents.*
+
+# Miscellaneous
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Python-specific files
+*.pyo
+*.pyd
+*.pdb
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Anaconda
+*.conda
+*.ipynb_checkpoints
